@@ -18,7 +18,7 @@ frames = []
 
 # === Initialize AI components ===
 whisper = WhisperModel("base", compute_type="int8", device="cpu")
-groq = Groq(api_key="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")
+groq = Groq(api_key="your_groq_api_key_here")
 
 # === Initialize TTS ===
 tts = pyttsx3.init()
