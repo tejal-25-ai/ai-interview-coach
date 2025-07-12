@@ -6,7 +6,7 @@ from faster_whisper import WhisperModel
 from groq import Groq
 
 # === Initialize Groq, Whisper, and pyttsx3 ===
-groq = Groq(api_key="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")  # 🔁 Replace with your actual API key
+groq = Groq(api_key="your_groq_api_key_here")  # 🔁 Replace with your actual API key
 whisper = WhisperModel("base", compute_type="int8", device="cpu")
 tts = pyttsx3.init()
 
